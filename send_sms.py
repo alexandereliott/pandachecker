@@ -9,7 +9,7 @@ from secrets import roboNum
 # Your Account SID from twilio.com/console
 account_sid = "ACdfe47e56dcfad7f49f741761f44d5b5b"
 # Your Auth Token from twilio.com/console
-# auth_token  = "your_auth_token"
+ auth_token  = secrets.twilio_api_token
 
 client = Client(account_sid, auth_token)
 
